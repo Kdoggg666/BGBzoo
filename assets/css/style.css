@@ -71,3 +71,9 @@ body {
     margin-right: 50px;
 
 }
+
+@media (max-width: 480px) {
+    body {
+        background-image: url("../img/frog-bg-md.jpg");
+    }
+}
