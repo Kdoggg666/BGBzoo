@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+h1,
+h2,
+h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-family: "Fira Sans", sans-serif;
+}
+
+body {
+    background-image: url("../img/frog-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+
+.news-column {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 400px;
+    color: #fafafa;
+    
+
+}
+
+
+.news-column h1 {
+    font-size: 4em;
+    color: limegreen;
+}
+
+.open-times {
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid green;
+    height: auto;
+    background-color: ivory;
+    max-width: 800px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.open-times h2 {
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+.open-times ul {
+    align-items: left;
+    text-align: left;
+    font-size: 30px;
+}
+
+.map {
+    align-items: left;
+}
+
+.contact-info {
+    font-size: 2em;
+    margin-right: 50px;
+
+}
